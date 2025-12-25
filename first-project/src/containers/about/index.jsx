@@ -1,10 +1,10 @@
 import React from "react";
 
-const Home = () => {
-    return (
+const About=()=>{
+    return(
         <div style={{ color: 'black', padding: '20px' }}>
-            Home Page
+            About Page
         </div>
     )
 }
-export default Home;
+export default About;
