@@ -6,14 +6,18 @@ import Resume from './containers/resume';
 import Skills from './containers/skills';
 import Portfolio from './containers/portfolio';
 import Contact from './containers/contact';
+import Navbar from './components/navBar';
+import ParticlesBackground from "./utils.js/ParticlesBackground";
 
 function App() {
+
   return (
     <div className="App">
 
       {/* Particles js */}
-
+      <ParticlesBackground />
       {/* navbar */}
+      <Navbar />
 
       {/* main page content */}
       <Routes>

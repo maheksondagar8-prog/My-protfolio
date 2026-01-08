@@ -2,7 +2,7 @@ import React from "react";
 
 const Home = () => {
     return (
-        <div style={{ color: 'black', padding: '20px' }}>
+        <div>
             Home Page
         </div>
     )
