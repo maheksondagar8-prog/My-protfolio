@@ -1,0 +1,253 @@
+.about {
+    &_content {
+        display: flex;
+        gap: 10px;
+        padding: 20px;
+        width: 100%;
+
+        &_personalWrapper {
+            width: 70%;
+        }
+
+        &_serviceWrapper {
+            width: 30%;
+        }
+
+        .personalAndEducation {
+            display: flex;
+            gap: 40px;
+        }
+
+        &_personalWrapper {
+            h2 {
+                font-size: 2.5rem;
+                font-weight: 700;
+                margin-bottom: 10px;
+                color: var(--blue-theme-main-color);
+            }
+
+            h2.personalInformationHederText {
+                padding-top: 20px;
+                margin-bottom: 16px;
+            }
+
+            p {
+                color: var(--blue-theme-sub-text-color);
+                font-size: 1.8rem;
+                line-height: 1.65;
+                padding-bottom: 20px;
+                border-bottom: 1px dashed var(--blue-theme-main-color);
+            }
+
+            .education-card {
+                color: var(--blue-theme-sub-text-color);
+                margin-bottom: 5px;
+
+                span {
+                    font-size: 13px;
+                }
+
+                div {
+                    font-size: 14px;
+                }
+            }
+
+            .education-card {
+                div {
+                    margin-bottom: 3px;
+                }
+
+                &_icon {
+                    font-size: 20px !important;
+                    color: var(--blue-theme-main-color);
+                    margin-bottom: 5px;
+                    display: flex;
+                    gap: 6px;
+
+                    div {
+                        font-size: 18px;
+                    }
+                }
+            }
+
+            .personalInfo-card {
+                color: var(--blue-theme-sub-text-color);
+                margin-bottom: 5px;
+                display: flex;
+                gap: 3px;
+                font-size: 16px;
+                align-items: baseline;
+
+                &_icon {
+                    display: flex;
+                    border: 1px solid var(--blue-theme-sub-text-color);
+                    border-radius: 50%;
+                    font-size: 12px;
+                    padding: 4px 5px 5px 5px;
+                    margin-right: 7px;
+                }
+
+                &_label {
+                    font-size: 16px;
+                }
+            }
+
+        }
+
+        &_serviceWrapper {
+            display: flex;
+            justify-content: center;
+            margin-top: 23px;
+
+            &_interContent {
+                width: 350px;
+                height: 350px;
+                background: radial-gradient(180px, var(--blue-theme-main-color), transparent 90%);
+                position: relative;
+                border-radius: 50%;
+                border: 1.5px solid var(--blue-theme-main-color);
+                animation: rotation 10s linear 1s infinite;
+
+                div:nth-child(1) {
+                    position: absolute;
+                    top: 8%;
+                    left: 9px;
+                }
+
+                div:nth-child(2) {
+                    position: absolute;
+                    top: 74%;
+                    right: 14px;
+                }
+
+                div:nth-child(3) {
+                    position: absolute;
+                    top: -9%;
+                    right: 139px;
+                }
+
+                div:nth-child(4) {
+                    position: absolute;
+                    top: 14%;
+                    right: -3px;
+
+                }
+
+                div:nth-child(5) {
+                    position: absolute;
+                    top: 89%;
+                    left: 100px;
+                }
+
+                div:nth-child(6) {
+                    position: absolute;
+                    top: 54%;
+                    left: -26px;
+                }
+
+            }
+        }
+
+    }
+}
+
+@keyframes rotation {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .about_content {
+        flex-direction: column;
+
+        &_personalWrapper,
+        &_serviceWrapper {
+            width: 100%;
+        }
+
+        &_serviceWrapper {
+            margin: 10px 0px;
+
+            &_interContent {
+                width: 250px;
+                height: 250px;
+                background: radial-gradient(100px, var(--blue-theme-main-color), transparent 120%);
+
+                div:nth-child(1) {
+                    position: absolute;
+                    top: 8%;
+                    left: -10px;
+                }
+
+                div:nth-child(2) {
+                    position: absolute;
+                    top: 69%;
+                    right: 0px;
+                }
+
+                div:nth-child(3) {
+                    position: absolute;
+                    top: -12%;
+                    right: 89px;
+                }
+
+                div:nth-child(4) {
+                    position: absolute;
+                    top: 13%;
+                    right: -14px;
+                }
+
+                div:nth-child(5) {
+                    position: absolute;
+                    top: 87%;
+                    left: 68px;
+                }
+
+                div:nth-child(6) {
+                    position: absolute;
+                    top: 58%;
+                    left: -22px;
+                }
+            }
+        }
+
+        &_personalWrapper {
+            .personalAndEducation {
+                flex-direction: column;
+                gap: 3px;
+            }
+
+            h2.personalInformationHederText {
+                padding-top: 4px;
+                margin-bottom: 9px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .about_content {
+        &_personalWrapper {
+            h3 {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+            .personalAndEducation {
+                flex-direction: column;
+                gap: 3px;
+            }
+
+            h2.personalInformationHederText {
+                padding-top: 4px;
+                margin-bottom: 9px;
+            }
+        }
+    }
+
+}
