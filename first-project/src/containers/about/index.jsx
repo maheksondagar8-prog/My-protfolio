@@ -1,8 +1,8 @@
 import React from "react";
+import './styles.scss';
 import { BsInfoCircleFill } from 'react-icons/bs'
 import PageHeaderContain from "../../components/pageHeaderContent";
 import { FaUser, FaMapMarkerAlt, FaEnvelope, FaPhone } from "react-icons/fa";
-import './styles.scss';
 import { DiReact, DiAngularSimple, DiAndroid, DiApple } from 'react-icons/di'
 import { FaDev, FaDatabase } from 'react-icons/fa'
 import { FaGraduationCap } from "react-icons/fa";
