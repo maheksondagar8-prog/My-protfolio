@@ -5,12 +5,9 @@
         padding: 20px;
         width: 100%;
 
-        &_personalWrapper {
-            width: 70%;
-        }
-
+        &_personalWrapper,
         &_serviceWrapper {
-            width: 30%;
+            width: 50%;
         }
 
         .personalAndEducation {
@@ -37,37 +34,6 @@
                 line-height: 1.65;
                 padding-bottom: 20px;
                 border-bottom: 1px dashed var(--blue-theme-main-color);
-            }
-
-            .education-card {
-                color: var(--blue-theme-sub-text-color);
-                margin-bottom: 5px;
-
-                span {
-                    font-size: 13px;
-                }
-
-                div {
-                    font-size: 14px;
-                }
-            }
-
-            .education-card {
-                div {
-                    margin-bottom: 3px;
-                }
-
-                &_icon {
-                    font-size: 20px !important;
-                    color: var(--blue-theme-main-color);
-                    margin-bottom: 5px;
-                    display: flex;
-                    gap: 6px;
-
-                    div {
-                        font-size: 18px;
-                    }
-                }
             }
 
             .personalInfo-card {
@@ -213,11 +179,6 @@
         }
 
         &_personalWrapper {
-            .personalAndEducation {
-                flex-direction: column;
-                gap: 3px;
-            }
-
             h2.personalInformationHederText {
                 padding-top: 4px;
                 margin-bottom: 9px;
@@ -236,11 +197,6 @@
 
             p {
                 font-size: 14px;
-            }
-
-            .personalAndEducation {
-                flex-direction: column;
-                gap: 3px;
             }
 
             h2.personalInformationHederText {

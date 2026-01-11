@@ -1,4 +1,4 @@
-import { FaLayerGroup, FaCode, FaPaintBrush, FaObjectGroup, FaTools, FaBug } from "react-icons/fa";
+import { FaLayerGroup, FaCode, FaPaintBrush, FaObjectGroup, FaTools, FaLightbulb } from "react-icons/fa";
 export const skillsDetails = [
     {
         label: "Frameworks",
@@ -87,12 +87,20 @@ export const skillsDetails = [
         ]
     },
     {
-        label: "Debugging",
-        icon: <FaBug />,
+        label: "Soft Skills",
+        icon: <FaLightbulb />,
         data: [
             {
-                SkillName: 'Chrome DevTools',
-                percentage: '50'
+                SkillName: 'Time Managment',
+                percentage: '70'
+            },
+            {
+                SkillName: 'Team Work',
+                percentage: '75'
+            },
+            {
+                SkillName: 'Adaptibility',
+                percentage: '80'
             }
         ]
     }
