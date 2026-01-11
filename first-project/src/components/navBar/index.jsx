@@ -8,7 +8,7 @@ const data = [
     { label: 'About Me', to: '/about' },
     { label: 'Resume', to: '/resume' },
     { label: 'Skills', to: '/skills' },
-    { label: 'Portfolio', to: '/portfolio' },
+    { label: 'Project', to: '/project' },
     { label: 'Contact', to: '/contact' }
 ]
 const Navbar = () => {
