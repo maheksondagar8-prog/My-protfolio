@@ -26,6 +26,7 @@
 
     &_contact-me {
         display: flex;
+        gap: 5px;
         justify-content: center;
 
         button {
@@ -38,8 +39,30 @@
             font-weight: 400;
             color: var(--blue-theme-background-color);
 
-            &:hover{
+            &:hover {
                 background: var(--blue-theme-main-color);
+            }
+        }
+
+        &_social-media {
+            cursor: pointer;
+            padding: 12px 22px;
+            background: transparent;
+            border: 2px solid var(--blue-theme-background-color);
+            font-size: 2rem;
+            border-radius: 10px;
+            font-weight: 400;
+            color: var(--blue-theme-background-color);
+
+            &:hover {
+                background: var(--blue-theme-main-color);
+            }
+
+            &_icon-btn-github,
+            &_icon-btn-linkedin,
+            &_icon-btn-cv {
+                color: var(--blue-theme-background-color);
+                font-size: 2rem;
             }
         }
     }
