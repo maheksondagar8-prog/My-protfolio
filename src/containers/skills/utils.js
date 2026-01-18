@@ -81,6 +81,10 @@ export const skillsDetails = [
                 percentage: '60'
             },
             {
+                SkillName: 'Azure',
+                percentage: '50'
+            },
+            {
                 SkillName: 'Postman',
                 percentage: '20'
             }
