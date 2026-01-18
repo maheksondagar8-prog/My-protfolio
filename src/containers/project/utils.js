@@ -7,6 +7,13 @@ export const projects = [
         codeLink: "https://github.com/maheksondagar8-prog/My-protfolio"
     },
     {
+        title: "Angular Learning Project",
+        summary:
+            "Built a small Angular application to practice core concepts by creating dynamic tables and modal dialogs using Angular and Prime-NG. Implemented features such as data listing, add/edit actions through modals, and component-based UI design to understand real-world Angular workflows.",
+        keyPoints: ["HTML", "CSS", "Angualr" , "Prime-Ng"],
+        codeLink: "https://github.com/maheksondagar8-prog/Angular-Learning-project"
+    },
+    {
         title: "Time Table Genrator",
         summary:
             "Designed and developed a web-based Student and Faculty Timetable Management System using PHP and MySQL (XAMPP) as part of a college final-year project. The system allows administrators to create and manage timetable tables, assign subjects, faculty, and classrooms efficiently. It helps students and faculty view structured schedules, reduces manual errors, and improves timetable organization through a centralized database-driven approach.",
