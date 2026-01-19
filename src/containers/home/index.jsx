@@ -48,8 +48,8 @@ const Home = () => {
                 {/* Download CV */}
                 <div className="home_contact-me_social-media">
                     <a
-                        href="/Mahek_sondagar_resume.pdf"
-                        download="Mahek_sondagar_resume.pdf"
+                        href="/Resume-MS.pdf"
+                        download="Resume-MS.pdf"
                         className="home_contact-me_social-media_icon-btn-cv"
                     >
                         <FaFileDownload size={22} />
