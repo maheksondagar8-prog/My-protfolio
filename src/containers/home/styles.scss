@@ -82,6 +82,48 @@
     }
 }
 
+@media only screen and (max-width:461px) {
+    .home {
+        &_contact-me {
+            flex-direction: column;
+
+            &_social-media {
+                padding: 6px 81px; // smaller button
+                font-size: 1.5rem; // smaller container text
+                border-radius: 36px;
+
+                &_icon-btn-github,
+                &_icon-btn-linkedin,
+                &_icon-btn-cv {
+                    font-size: 1.4rem; // smaller icons
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .home {
+        &_contact-me {
+            flex-direction: column;
+
+            &_social-media {
+                padding: 6px 81px;
+                font-size: 1.2rem;
+                border-radius: 36px ;
+
+                &_icon-btn-github,
+                &_icon-btn-linkedin,
+                &_icon-btn-cv {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (min-width:768px) and (max-width:990px) {
     .home_text-wrapper h1 {
         font-size: 6rem;
