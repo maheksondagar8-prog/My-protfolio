@@ -4,6 +4,7 @@ export const projects = [
         summary:
             "Created a website for our family furniture and aluminum works business to showcase services, product designs, and completed projects. The site provides a responsive and user-friendly interface built with React, helping customers easily explore our work and contact us for custom furniture and aluminum solutions.",
         keyPoints: ["HTML", "SCSS", "React JS"],
+        livelink : "https://shreechamundakrupa.netlify.app/",
         codeLink: "https://github.com/maheksondagar8-prog/ck-website"
     },
     {
@@ -11,6 +12,7 @@ export const projects = [
         summary:
             "Designed and developed a personal portfolio website using React to showcase projects, skills, and experience. Implemented reusable components, responsive layouts, and clean UI with smooth navigation and performance-focused rendering.",
         keyPoints: ["HTML", "SCSS", "React JS"],
+        livelink : "https://ms8-portfolio.netlify.app/",
         codeLink: "https://github.com/maheksondagar8-prog/My-protfolio"
     },
     {

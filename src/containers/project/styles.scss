@@ -33,12 +33,17 @@
                 }
             }
 
-            &_codelink a {
-                color: var(--blue-theme-main-color);
-                cursor: pointer;
+            &_codelink {
                 display: flex;
                 justify-content: end;
+                gap: 15px;
+                color: var(--blue-theme-main-color);
+                cursor: pointer;
                 font-size: 18px;
+
+                a {
+                    color: var(--blue-theme-main-color);
+                }
             }
         }
     }
