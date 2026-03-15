@@ -1,5 +1,12 @@
 export const projects = [
     {
+        title: "Furniture & Aluminum Works",
+        summary:
+            "Created a website for our family furniture and aluminum works business to showcase services, product designs, and completed projects. The site provides a responsive and user-friendly interface built with React, helping customers easily explore our work and contact us for custom furniture and aluminum solutions.",
+        keyPoints: ["HTML", "SCSS", "React JS"],
+        codeLink: "https://github.com/maheksondagar8-prog/ck-website"
+    },
+    {
         title: "My Portfolio",
         summary:
             "Designed and developed a personal portfolio website using React to showcase projects, skills, and experience. Implemented reusable components, responsive layouts, and clean UI with smooth navigation and performance-focused rendering.",
